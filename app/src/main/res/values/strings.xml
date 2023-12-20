@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ReadWriteSpell</string>
+    <string name="exercise_report_card"><![CDATA[Exercise]]></string>
+    <string name="tutorial_videos"><![CDATA[Tutorial & Videos]]></string>
+    <string name="select_your_activity">Select Your Activity</string>
+    <string name="tutorials_videos"><![CDATA[Tutorials & Videos]]></string>
+    <string name="_1st_step_vowels_consonants"><![CDATA[3) 1st step - Vowels & Consonants]]></string>
+    <string name="a_short_history_of_english">2) A Short History of English</string>
+    <string name="introduction_to_regerscenter">1) Introduction to Rogers Center</string>
+    <string name="exit">Exit</string>
+    <string name="letter">LETTERS</string>
+    <string name="reading">READING</string>
+    <string name="writing">WRITING</string>
+    <string name="dictionary">DICTIONARY</string>
+    <string name="language">LANGUAGE</string>
+    <string name="spelling">SPELLING</string>
+    <string name="idle">IDLE</string>
+    <string name="connecting">CONNECTING</string>
+    <string name="fetching_url">FETCHING URL</string>
+    <string name="downloading">Downloading..</string>
+    <string name="canceled">Canceled</string>
+</resources>

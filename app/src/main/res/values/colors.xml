@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="transparentcolor">#00FFFFFF</color>
+    <color name="whitecolor">#FFFFFF</color>
+    <color name="textcolor">#FFFFFF</color>
+    <color name="keyboardtext">#A30000</color>
+    <color name="textcolorlessons">#000000</color>
+    <color name="textcolorlessons_ligt">#8d8d8d</color>
+    <color name="red_color">#FF0000</color>
+    <color name="green_color">#11FF00</color>
+    <color name="color_botton_nav">#e0e0e0</color>
+    <color name="home_card_bg">#fff9c4</color>
+    <color name="home_card_bgt">#706400</color>
+    <color name="home_card_bg1">#e0f2f1</color>
+    <color name="home_card_bg1t">#FF97955B</color>
+    <color name="home_card_bg2">#f3e5f5</color>
+    <color name="home_card_bg2t">#FF003B9c</color>
+    <color name="home_card_bg3">#ffebee</color>
+    <color name="home_card_bg3t">#FF7B4E00</color>
+    <color name="home_card_bg4">#D5DCFF</color>
+    <color name="home_card_bg4t">#FA900033</color>
+    <color name="home_card_bg5">#ccff90</color>
+    <color name="home_card_bg5t">#ff44163A</color>
+    <color name="home_card_bg6">#FFC9B8</color>
+    <color name="home_card_bg6t">#711B00</color>
+    <color name="home_cardhjmhgujygujy_bg6t">#FFF5F1</color>
+
+
+</resources>

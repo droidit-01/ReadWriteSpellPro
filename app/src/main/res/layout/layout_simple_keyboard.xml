@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btn_key_a"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@color/color_botton_nav"
+        android:text="a"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/keyboardtext"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_key_b"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgbtn_prev"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_key_b"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_botton_nav"
+        android:text="b"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/keyboardtext"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_key_a"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_key_c"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_key_a" />
+
+    <Button
+        android:id="@+id/btn_key_c"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_botton_nav"
+        android:text="c"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/keyboardtext"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_key_a"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_key_d"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_key_b" />
+
+    <Button
+        android:id="@+id/btn_key_d"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_botton_nav"
+        android:text="d"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/keyboardtext"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_key_a"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_key_e"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_key_c" />
+
+    <Button
+        android:id="@+id/btn_key_e"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_botton_nav"
+        android:text="e"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/keyboardtext"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_key_a"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_key_f"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_key_d" />
+
+    <Button
+        android:id="@+id/btn_key_f"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_botton_nav"
+        android:text="f"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/keyboardtext"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_key_a"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_key_g"
+        app:layout_constraintStart_toEndOf="@+id/btn_key_e" />
+
+    <Button
+        android:id="@+id/btn_key_g"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_botton_nav"
+        android:text="g"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/keyboardtext"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_key_a"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_key_h"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_key_f" />
+
+    <Button
+        android:id="@+id/btn_key_h"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_botton_nav"
+        android:text="h"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/keyboardtext"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_key_a"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_key_i"
+        app:layout_constraintStart_toEndOf="@+id/btn_key_g" />
+
+    <Button
+        android:id="@+id/btn_key_i"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_botton_nav"
+        android:text="i"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/keyboardtext"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_key_a"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_key_j"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_key_h" />
+
+    <Button
+        android:id="@+id/btn_key_j"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_botton_nav"
+        android:text="j"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/keyboardtext"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_key_a"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_key_k"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_key_i" />
+
+    <Button
+        android:id="@+id/btn_key_k"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_botton_nav"
+        android:text="k"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/keyboardtext"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_key_a"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_key_l"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_key_j" />
+
+    <Button
+        android:id="@+id/btn_key_l"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_botton_nav"
+        android:text="l"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/keyboardtext"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_key_a"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_key_m"
+        app:layout_constraintStart_toEndOf="@+id/btn_key_k" />
+
+    <Button
+        android:id="@+id/btn_key_m"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_botton_nav"
+        android:text="m"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/keyboardtext"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_key_i"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imgbtn_home"
+        app:layout_constraintStart_toEndOf="@+id/btn_key_l" />
+
+    <Button
+        android:id="@+id/btn_key_n"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="@color/color_botton_nav"
+        android:text="n"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/keyboardtext"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_key_o"
+        app:layout_constraintStart_toEndOf="@+id/imgbtn_prev"
+        app:layout_constraintTop_toBottomOf="@+id/btn_key_a"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_key_o"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_botton_nav"
+        android:text="o"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/keyboardtext"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_key_n"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_key_p"
+        app:layout_constraintStart_toEndOf="@+id/btn_key_n" />
+
+    <Button
+        android:id="@+id/btn_key_p"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_botton_nav"
+        android:text="p"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/keyboardtext"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_key_n"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_key_q"
+        app:layout_constraintStart_toEndOf="@+id/btn_key_o" />
+
+    <Button
+        android:id="@+id/btn_key_q"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_botton_nav"
+        android:text="q"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/keyboardtext"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_key_n"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_key_r"
+        app:layout_constraintStart_toEndOf="@+id/btn_key_p" />
+
+    <Button
+        android:id="@+id/btn_key_r"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_botton_nav"
+        android:text="r"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/keyboardtext"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_key_n"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_key_s"
+        app:layout_constraintStart_toEndOf="@+id/btn_key_q" />
+
+    <Button
+        android:id="@+id/btn_key_s"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_botton_nav"
+        android:text="s"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/keyboardtext"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_key_n"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_key_t"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_key_r" />
+
+    <Button
+        android:id="@+id/btn_key_t"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_botton_nav"
+        android:text="t"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/keyboardtext"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_key_n"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_key_u"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_key_s" />
+
+    <Button
+        android:id="@+id/btn_key_u"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_botton_nav"
+        android:text="u"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/keyboardtext"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_key_n"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_key_v"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_key_t" />
+
+    <Button
+        android:id="@+id/btn_key_v"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_botton_nav"
+        android:text="v"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/keyboardtext"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_key_n"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_key_w"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_key_u" />
+
+    <Button
+        android:id="@+id/btn_key_w"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_botton_nav"
+        android:text="w"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/keyboardtext"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_key_n"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_key_x"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_key_v" />
+
+    <Button
+        android:id="@+id/btn_key_x"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_botton_nav"
+        android:text="x"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/keyboardtext"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_key_n"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_key_y"
+        app:layout_constraintStart_toEndOf="@+id/btn_key_w" />
+
+    <Button
+        android:id="@+id/btn_key_y"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_botton_nav"
+        android:text="y"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/keyboardtext"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_key_n"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_key_z"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_key_x" />
+
+    <Button
+        android:id="@+id/btn_key_z"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_botton_nav"
+        android:text="z"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/keyboardtext"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_key_n"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imgbtn_home"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_key_y" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_prev"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@color/color_botton_nav"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_previous" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_home"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@color/color_botton_nav"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_home" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

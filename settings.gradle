@@ -1,0 +1,5 @@
+include ':lvl_library'
+include ':apkx_library'
+include ':app'
+rootProject.name = "ReadWriteSpell"
+include ':zip_file'

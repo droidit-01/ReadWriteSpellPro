@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "734688316789",
+    "firebase_url": "https://readwritespell-a49bd-default-rtdb.firebaseio.com",
+    "project_id": "readwritespell-a49bd",
+    "storage_bucket": "readwritespell-a49bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734688316789:android:3e41085c97f406118a173c",
+        "android_client_info": {
+          "package_name": "com.RogersCenter.readwritespell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734688316789-2j21q9fcqsad6i24skpub548n95n3r8o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.RogersCenter.readwritespell",
+            "certificate_hash": "c8b877c8d8726e01cd86d2b063bd190fe09d1a15"
+          }
+        },
+        {
+          "client_id": "734688316789-kg5p547k8fsitp2hkkh6l8oru1jr38eq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp0V2AW7oW9t1O7OaKlICvA0HP8CkfN3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734688316789-kg5p547k8fsitp2hkkh6l8oru1jr38eq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

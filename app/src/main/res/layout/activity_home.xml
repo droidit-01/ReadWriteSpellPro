@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greenboard"
+    tools:context=".HomeActivity">
+
+    <ProgressBar
+        android:id="@+id/progress_home"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_home_exercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="32dp"
+        android:drawableStart="@drawable/ic_right_arrow"
+        android:drawablePadding="14dp"
+        android:fontFamily="casual"
+        android:text="@string/exercise_report_card"
+        android:textAlignment="viewStart"
+        android:textColor="@color/textcolor"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:drawableTint="@color/whitecolor"
+        app:layout_constraintBottom_toTopOf="@+id/tv_home_tutorial"
+        app:layout_constraintEnd_toEndOf="@+id/tv_home_title"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_home_title"
+        app:layout_constraintTop_toBottomOf="@+id/tv_home_title" />
+
+    <TextView
+        android:id="@+id/tv_home_tutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="8dp"
+        android:drawableStart="@drawable/ic_right_arrow"
+        android:drawablePadding="14dp"
+        android:fontFamily="casual"
+        android:text="@string/tutorial_videos"
+        android:textAlignment="viewStart"
+        android:textColor="@color/textcolor"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:drawableTint="@color/whitecolor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tv_home_title"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_home_title"
+        app:layout_constraintTop_toBottomOf="@+id/tv_home_exercise" />
+
+    <TextView
+        android:id="@+id/tv_home_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="casual"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        android:text="@string/exit"
+        android:textAlignment="viewStart"
+        android:textColor="@color/textcolor"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_home_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/select_your_activity"
+        android:textColor="@color/textcolor"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_home_exercise"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/tv_loading"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:textColor="@color/textcolor"
+        android:visibility="gone"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_home_exit"
+        app:layout_constraintEnd_toStartOf="@+id/tv_progress"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_progress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textcolor"
+        android:visibility="gone"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_home_exit"
+        app:layout_constraintEnd_toStartOf="@+id/tv_home_exit"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_loading" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="38dp"
+        android:background="@color/textcolor"
+        app:layout_constraintEnd_toEndOf="@+id/tv_home_exercise"
+        app:layout_constraintStart_toStartOf="@+id/tv_home_exercise"
+        app:layout_constraintTop_toBottomOf="@+id/tv_home_exercise" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/textcolor"
+        app:layout_constraintEnd_toEndOf="@+id/tv_home_tutorial"
+        app:layout_constraintStart_toStartOf="@+id/tv_home_tutorial"
+        app:layout_constraintTop_toBottomOf="@+id/tv_home_tutorial" />
+</androidx.constraintlayout.widget.ConstraintLayout>
